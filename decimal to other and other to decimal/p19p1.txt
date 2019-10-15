@@ -1,0 +1,29 @@
+#base changing program
+
+function basechange(a,b):
+    if (b==2):
+        result = binary(a)		#calling inbuilt binary conversion function
+    if (b==8):
+        result = octal(a)		#calling inbuilt octal conversion function
+    if (b==16):
+        result = hexa(a)		#calling inbuilt hexadecimal conversion function
+    return result
+
+function binary(number):
+    return binary number
+
+function octal(number):
+    return octal number
+
+function hexa(number):
+    return hexadecimal number
+
+
+a = int(input("Enter the number : "))
+b = int(input("Enter the base : "))
+
+output= basechange(a,b)
+if (a>0 and b>0):
+    print(output)
+else :
+    print("You enterd a negative number ")

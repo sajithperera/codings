@@ -1,0 +1,15 @@
+s= user input the number as a string
+n= user input the base as a integer
+
+checking the base value
+
+use the appropriate function to convert the number to decimal
+if(n==2):
+    val=bintodeci(s)
+if(n==8):
+    val=octtodeci(s)
+if(n==16):
+    val=hextodeci(s)
+
+getting the result from those functions 
+print the result
