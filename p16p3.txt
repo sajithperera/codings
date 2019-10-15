@@ -1,0 +1,14 @@
+Number = user input;
+
+if ( Number >0):
+	for (j=1 to j= number):
+		total = 0
+        	for (i=1 to i=j):
+            		if(j % i == 0):
+                		total = total + i
+        	if (total == j):
+           		 print(" %d is a Perfect Number" %j)
+        	else:
+           		 print(" %d is not a Perfect Number" %j)
+else :
+	print(" the number you entered is not positive")
