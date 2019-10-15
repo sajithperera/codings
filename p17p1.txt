@@ -1,0 +1,11 @@
+
+x = user input
+
+if (x>0):
+	divisors = [1]
+	
+	call for findDivisors(num) function which will return the divisor values
+	and print them
+else:
+	print("you entered a negative number ")
+	

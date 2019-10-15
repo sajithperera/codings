@@ -1,0 +1,11 @@
+
+
+
+x= user input number 1
+y= user input number 2
+
+if(x>0 and y>0):
+    divisors =[1]
+    print(commonDivisor(x,y)) which will return the common divisors for both numbers
+else:
+    print("you entered a negative number")
