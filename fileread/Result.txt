@@ -1,0 +1,8 @@
+This is the result file generated 
+
+
+Number of left angle brackets (<) are : 1422 
+Number of right angle brackets (>) are : 1420 
+Number of New line are : 1353 
+Number of  lowercase letter 'e' are : 3947 
+Number of  comments are : 83 

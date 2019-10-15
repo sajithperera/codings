@@ -1,0 +1,36 @@
+#read through a file and counting some special characters
+
+
+leftcount=0
+rightcount=0
+newlinecount=0
+lettercount=0
+commentcount=0
+
+
+f = open("test.txt")  #OPEN THE test.txt file
+if(f):
+    s=f.readline()	#line by line read
+    while(s!=""):
+        for i in range(len(s)):
+            if (s[i]=='<'):
+                leftcount = leftcount+1
+            if (s[i]=='>'):
+                rightcount = rightcount+1
+            if (s[i] == '\n'):
+                newlinecount = newlinecount+1
+            if (s[i]=='e'):
+                lettercount = lettercount+1
+            if (s[i]=='!'):
+                commentcount = commentcount+1
+        s =f.readline()
+
+    f.close()				#close the file
+
+    q = open("Result.txt",'w')		#create a new file to write the output
+    write the output to the file
+        
+
+    q.close()
+else:
+    print("File is not there")
