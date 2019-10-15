@@ -1,0 +1,10 @@
+
+
+a = user input number 1
+b = user input number 1
+
+create a list to store common divisors 
+c= call for the function which will return the common divisors to both numbers
+
+
+print the set of common divisors
