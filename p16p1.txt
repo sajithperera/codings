@@ -1,0 +1,9 @@
+x= user input number;
+
+while (x>=1):
+	count= 0
+	call the function f(x) which will return the value and the number of terms
+	print("value returned")
+	print("number of terms")
+	x = next user input number;
+
