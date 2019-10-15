@@ -1,0 +1,12 @@
+
+
+
+
+s = input("Enter yor string lowercase : ")
+
+n = call for ispal(s) function wchich will return a boolen whether it is a palindrome or not
+
+if(n== True):
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
