@@ -1,0 +1,8 @@
+ Write a program that takes a page 
+(eg the source of a Web page that you have saved), co
+unts the occurrences of left angle brackets (<>), rig
+ht angle brackets (<>), newlines, the lowercase letter e, th
+e string <!-- and the string --> and prints out the res
+ults to a ?le results.txt. Your program should make a
+ppropriate checks regarding the existence of the input and out
+put ?les. Save this program as p18p6.py.

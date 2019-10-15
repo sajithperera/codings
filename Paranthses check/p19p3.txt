@@ -1,0 +1,18 @@
+f= open the test.txt file
+
+create a empty list as a[]
+
+if file exists:
+	check for the braces"(,),<,>,{,},[,]" and append to the empty list a[]
+	close the file
+print the list a[]
+
+
+Open= ["[","{","(","<"] 
+close= ["]","}",")",">"]
+
+if the length of list == 0:
+	print balanced
+else:
+	call the function check(), which will return whether list a[] is balanced or not
+	print the output
