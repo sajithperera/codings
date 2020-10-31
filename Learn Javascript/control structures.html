@@ -1,0 +1,130 @@
+<html>
+<head>
+	<script type="text/javascript">
+	    // SELECTORS	
+		document.write("<U><H1>SELECTORS</H1></U>")
+		document.write("<br>")
+		//if
+		
+		
+				var mark=90;
+				
+				
+				if(mark>=75)
+					{	document.write("Good  &nbsp;&nbsp;&nbsp;");
+						
+						document.write(" Mark "+mark);
+						}
+				
+				document.write("<br>");
+				document.write("<br>");
+				document.write("<br>");
+		
+		
+		//if else
+		
+				if(mark>=80)
+						{document.write("Pass");}
+				else
+						{document.write("Fail");}
+						
+				
+				document.write("<br>");
+				document.write("<br>");
+				document.write("<br>");		
+		
+		
+		//if else
+		
+				if(" ")                 // check different outputs for the input of if("")
+						{document.write("True");}
+				else
+						{document.write("False");}
+						
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+
+		//if else if 
+		
+				var status="";
+				
+				if(mark>=90)
+						{status="A";}
+				
+				else if(mark>=80)
+						{status="B";}
+				
+				else if(mark>=70)
+						{status="c"}
+				
+				else 	{status="Pass";}
+						
+						document.write("Grade:");
+						document.write(status);
+		
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		
+	// SWITCH
+	
+				var role="Admin";
+				
+				switch(role)
+						{case"Admin":
+								document.write("Administrator");
+								break;
+						case"Super":
+								document.write("Super User");
+								break;
+						case"User":
+								document.write("Normal User");
+								break;
+						default:
+								document.write("Guest");
+								//break;
+								}
+	//LOOPS
+	
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<h1><u>LOOPS</U></H1>")
+	
+	
+
+	
+	// for loop
+				for(i=1;i<=10;i++){
+						document.write(i+" ")}
+						
+	
+						document.write("<br>");
+						document.write("<br>");
+						document.write("<br>");
+	
+	//WHILE LOOP
+				j=100;
+				while(j<=400)
+						{document.write(j+"<br>");
+						j+=50;  //j=j+50
+						}
+		
+	
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	
+	
+	// DO WHILE LOOP
+				k=1000;
+				do{
+						document.write(k+"<br/>");
+						k-=100; //k=k-100;
+						}
+				while(k>=500);
+				
+	</script>
+</head>
+</html>
