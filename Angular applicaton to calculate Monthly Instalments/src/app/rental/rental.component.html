@@ -1,0 +1,17 @@
+<div>
+    Facility Amount : <br>
+    <input type="number" [(ngModel)]="amount" ><br><br>
+
+    Period : <br>
+    <input type="number" [(ngModel)]="period" ><br><br>
+
+    Rate : <br>
+    <input type="number" [(ngModel)]="rate"><br><br><br><br> 
+
+    Rental : 
+    <label >{{CalculateRental()}}</label>
+</div>
+<br><br><br>
+<div>
+    <button [routerLink]="['/table']" >Show Monthly Installments</button>
+</div>

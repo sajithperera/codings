@@ -1,0 +1,26 @@
+<div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Rental No</th>
+                <th>Date</th>
+                <th>Amount Paid</th>
+                <th>Amount to be paid</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of dataSet; let i = index">
+                <td>{{i}}</td>
+                <td>{{row.date | date}}</td>
+                <td>{{row.paid}}</td>
+                <td>{{row.due}}</td>
+            </tr>
+        </tbody>
+    
+    </table>
+</div>
+<br><br><br>
+
+<div>
+    <button [routerLink]="['']"> Back </button>
+</div>
