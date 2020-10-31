@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.IMAGES {
+	border-radius:100PX;}
+
+	
+	
+.HOME  /* hover settings for the inactive links in the menue  [MORE]*/
+{
+  border: 1 solid;
+  border-radius:5000px;
+  text-shadow:#F00;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.HOME:hover {
+  text-shadow: 8px 8px 9px #000000;
+  box-shadow: inset 0 0 0px, 10px 10px 50px #FFFFFF;
+
+}
+
+
+.TextHome  	/* FONT SETTINGS Home Link */
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 60px;
+	color: #FFF;
+	text-decoration: none;
+	}
+	
+	
+.bgHOME   /* BACKGROUND AND BORDER SETTINGS OF ROW 2 LEFT COLUMN inactive Links [HOME] */
+{  
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	border-radius:5000px;
+	text-align:center;
+	padding-top:20px;
+}
+
+
+.BG {
+	background-color:#000;
+	}
+	
+	
+.pareagraph {
+	font-family:"Adobe Arabic", "High Tower Text", Haettenschweiler, DFKai-SB;
+	font-size:40px;
+	color:#C60;
+	padding:40px;
+	
+	}	
+	
+	
+	
+.SiteNames {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bold;
+	font-size:45px;
+	color:#F30;
+	padding-left:0px;
+	}
+	
+
+	
+	
+.Address {
+	font-family:"Times New Roman", Times, serif;
+	font-size:30px;
+	color:#FF3;
+	padding-left:10px;
+	text-decoration:none;
+	}
+	
+.Address:hover {
+	color:#3F0;
+	text-decoration:blink;
+	text-shadow:#090;
+	text-transform:uppercase;}
+	
+	
+	
+	
+.FOOTER {
+	background-color:#200232;
+	border-color:#7d06c8;
+	border-radius:10px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#daa8f9;
+	
+	}
+	
+	
+.bodyBg {
+	background-image:url(images/634ac06c6f6df757e0fae8c5f6879c9a.gif);
+	background-repeat:round;
+	}
+	
+	
+	
+.contentBg {
+	background-image:url(images/Mv83H.png);
+	background-repeat:repeat;}
+	
+	
+	
+.arrowpadding {
+	padding-left:70px;
+	}
